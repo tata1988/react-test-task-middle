@@ -1,0 +1,32 @@
+.basket {
+    background-color: #d6d3d6;
+    height: 100vh;
+}
+
+.basketWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 31px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.wrapper {
+    height: calc(100vh - 220px);
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    gap: 10px;
+}

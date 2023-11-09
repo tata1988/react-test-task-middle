@@ -1,0 +1,40 @@
+.productWrapper {
+  display: block;
+  margin: auto;
+}
+
+.wrapperSlider {
+  width: 250px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.name {
+  color:rgb(8, 184, 184);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.addCard {
+  padding: 10px 0;
+  cursor: pointer;
+  margin: 0 auto;
+  font-size: 18px;
+  color: blue;
+
+  &:hover {
+    color: red;
+  }
+}
+
+.error {
+  display: none;
+  color: red;
+  font-size: 10px;
+}

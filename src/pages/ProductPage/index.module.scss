@@ -1,0 +1,27 @@
+.productPage {
+  background-color: #d6d3d6;
+  height: 100vh;
+}
+
+.header {
+  padding: 50px 30px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 31px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.main {
+  display: flex;
+}
+

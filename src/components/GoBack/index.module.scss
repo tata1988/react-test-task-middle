@@ -1,0 +1,22 @@
+.close {
+    position: relative;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #D58C51;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    margin-right: 63px;
+
+}
+
+.img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.close:hover {
+    opacity: .5;
+}

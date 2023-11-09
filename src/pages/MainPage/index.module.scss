@@ -1,0 +1,44 @@
+.mainPage {
+    background-color: #d6d3d6;
+    height: 100vh;
+}
+.header {
+    padding: 40px 0;
+
+}
+
+.title {
+    color: #fff;
+    font-weight: 700;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 20px;
+}
+.goodsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.link {
+    transition: color 0.2s ease-in-out;
+    flex-grow: 1;
+    
+    &:hover {
+        color: #8a8a8a;
+    }
+}
+
+.image {
+
+    width: auto;
+    height: 370px;
+    object-fit: cover;
+  
+    @media (max-width: 768px) {
+      height: 185px;
+    }
+  }
